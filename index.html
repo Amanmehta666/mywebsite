@@ -1,38 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <title>JAPS3</title>
+  <style>
+    /* Your existing CSS styles go here */
+    /* ... */
+
+    /* Media query for mobile devices with a maximum width of 768px */
+    @media (max-width: 768px) {
+      body {
+        font-size: 16px; /* Adjust font size for better readability on mobile */
+      }
+
+      /* Mobile-specific styles here */
+      /* Adjust padding, margins, and other styles as needed */
+    }
+  </style>
 </head>
 
-
-	
+<body>
   <header>
     <nav>
+      <a href="index.html"></a>
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="service.html">Services</a></li>
         <li><a href="about.html">About</a></li>
-     
       </ul>
     </nav>
   </header>
-	
-  <div class ="hero">
-		<video src="images/index2.mp4" autoplay loop class="back-video" muted>  </video>	
-	
-	
+
+  <div class="hero">
+    <video src="images/index2.mp4" autoplay loop class="back-video" muted></video>
+  </div>
+
   <main>
     <h1>Welcome to JAPS3</h1>
-    <p>Your ultimate destination for academic success!</p>
-    <p>Choose our wide range of services, Your one-stop solution for IT projects, including cloud, cybersecurity, big data analytics, machine learning, web development, networking e.t.c as well as MBA and BBA projects and assessments.</p>
-    <a href="service.html" class="btn">View services</a>
+    <p style="font-size: 24px; font-weight: bold;">
+Your ultimate destination for academic success!
+   </p>
+    <p style="font-size: 20px;">Choose our wide range of services, Your one-stop solution for IT projects, including cloud, cybersecurity, big data
+      analytics, machine learning, web development, networking e.t.c as well as MBA and BBA projects and assessments.
+    </p>
+    <a href="service.html" class="btn"style="font-size: 20px; padding: 15px 30px;">View services</a>
   </main>
-	</div>
+
+  <section id="testimonials">
+    <h2>Testimonials</h2>
+    <div class="testimonial">
+      <p>"JAPS3 helped me ace my machine learning project! The support and guidance were exceptional."</p>
+      <p class="author">- Supriya</p>
+    </div>
+    <div class="testimonial">
+      <p>"As a biology student, I was struggling with data analysis until I found JAPS3. Their expertise in statistical tools and patience made a huge difference!"</p>
+      <p class="author">- Aditya</p>
+    </div>
+    
+    <div class="testimonial">
+      <p>"I was new to web development, but JAPS3's guidance and practical tips helped me build my first website from scratch. Forever grateful!"</p>
+      <p class="author">- Gulshan</p>
+    </div>
+    
+    <div class="testimonial">
+      <p>"Working with JAPS3 on cybersecurity projects has been eye-opening. Their insights and real-world examples boosted my understanding significantly!"</p>
+      <p class="author">- Adarsh</p>
+    </div>
+    <!-- Add more testimonials here -->
+  </section>
+
+  <section id="employees">
+    <h2>Meet Our Team</h2>
+    <div class="employee-container">
+      <div class="employee">
+        <img src="images/Kiddo.jpeg" alt="Employee 1">
+        <h3>Jyothi</h3>
+        <p>Cloud Developer</p>
+        <p>"Cloud Developer with a strong background in cloud technologies and platforms. Passionate about guiding students in their cloud computing journey and sharing knowledge to support their growth and success."</p>
+      </div>
+
+      <div class="employee">
+        <img src="images/file (1).enc" alt="Employee 2">
+        <h3>Aman</h3>
+        <p>Ethical Hacker</p>
+        <p>Experienced Cybersecurity expert with Linux and Networking proficiency. Dedicated to supporting students in
+          the field, leveraging expertise to assist aspiring IT professionals.</p>
+      </div>
+
+      <div class="employee">
+        <img src="images/batuk.jpeg" alt="Employee 2">
+        <h3>Pawan</h3>
+        <p>Physiotherapist</p>
+        <p>Experienced Bachelor of Physiotherapy student with a talent for project management, specializing in providing
+          exceptional support to biology students. </p>
+      </div>
+
+      <div class="employee">
+        <img src="images/jaggu.jpeg" alt="Employee 2">
+        <h3>Jagath</h3>
+        <p>Backend Developer</p>
+        <p>Adaptable Backend Developer with expertise in C, C++, Java, Python, and more. Committed to empowering
+          students and sharing insights to foster excellence.</p>
+      </div>
+      <div class="employee">
+        <img src="images/poki.jpeg" alt="Employee 1">
+        <h3>Sirisha</h3>
+        <p>Web Developer</p>
+        <p>Skilled Web Developer with expertise in Linux and Networking. Committed to supporting students in the field
+          and helping aspiring developers achieve success.</p>
+      </div>
+      <div class="employee">
+        <img src="images/motu.jpeg" alt="Employee 1">
+        <h3>Sakshi</h3>
+        <p>Java Full-satck Developer</p>
+        <p>"Expert Java Full Stack developer, excels in projects for students and clients. Exceptional at understanding needs and delivering top-notch solutions."</p>
+      </div>
+
+      <div class="employee">
+        <img src="images/goli.jpeg" alt="Employee 1">
+        <h3>Avinash</h3>
+        <p>Java Full-satck Developer</p>
+        <p>"Expert Linux Administrator, adept at student projects, excels in client and student interactions."</p>
+      </div>
+
+      <div class="employee">
+        <img src="images/anmol sir.jpeg" alt="Employee 1">
+        <h3>Anmol Hanchate</h3>
+        <p>Certified aws cloud Developer</p>
+        <p>"Proficient Cloud Associate Developer, excelling in student projects and adept at fostering seamless interactions with both clients and students."</p>
+      </div>
+      <!-- Add more employee details as needed -->
+    </div>
+  </section>
+
+  <div id="completed-projects">
+    <img src="images/k.png" alt="Completed Projects Icon">
+    <p><span id="project-count">1000</span>+ Projects Delivered</p>
+  </div>
+
   <footer>
     <p>&copy; 2023 Journey to awesome platform for secure scalable solutions. All rights reserved.</p>
+    <div class="social-links">
+     
+      <a href="https://instagram.com/japs3_official?igshid=MzNlNGNkZWQ4Mg==" target="_blank"><img
+          src="images/insta.jfif" alt="Twitter"></a>
+     
+      <!-- Add more social media links here -->
+    </div>
   </footer>
+
+  <script>
+    // Function to increase the project count and update it every second
+    function increaseProjectCount() {
+      let count = 1000; // Starting count
+      const countElement = document.getElementById('project-count');
+
+      // Update the count every second
+      setInterval(() => {
+        count += 1;
+        countElement.innerText = count;
+      }, 1000);
+    }
+
+    // Call the function when the page loads
+    window.onload = increaseProjectCount;
+  </script>
 </body>
+
 </html>
