@@ -73,9 +73,11 @@ h2 {
 }
 
 main h1 {
-  color: #a7f15c;
+  color: #6b00d6;
   text-align: center;
   font: 2em sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: underline;
 }
 
 main ul {
@@ -216,7 +218,7 @@ nav a {
 
 nav a:hover {
   background-color: #ffffff;
-  color: #c9f409;
+  color: #8710f7;
 }
 @media (max-width: 768px) {
   body {
